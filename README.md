@@ -13,7 +13,7 @@ I like building AI systems that can be **run, tested, observed, and evaluated**,
 | **[Agent Replay](https://github.com/Lyz1116-FOUND/agent-replay)** | A recorder, replay UI, evaluator, FastAPI service, and native ReAct coding-agent harness for Codex / Claude Code / OpenCode / Qoder / ZCode-style workflows. Includes tools, grader, retry, context compression, skills, MCP, reviewer, and multi-agent support. | Public beta; live demo; **130 live-model runs** across 13 variants × 10 tasks; on one model and 10 Python tasks (one run per variant/task), context compression kept 10/10 verified success while using about **47% of full-context total tokens**; not a general model ranking. |
 | **[Beat Greedy](https://github.com/Lyz1116-FOUND/beat-greedy)** | A playable ToC algorithm game that turns 0/1 knapsack into a player-vs-greedy-boss experience. Built the product flow, interaction, scoring, visual system, audio, and deployment. | React 19 + TypeScript + Vite + Tailwind; **18 automated tests**; deployed online. |
 | **[RealRoute-Bench](https://github.com/Lyz1116-FOUND/RealRoute-Bench)** | Research preview of a real-city routing benchmark: problem definitions, data provenance, an independent checker, and traffic-data acquisition; formal baselines and leaderboard remain incomplete. | **12 city worlds · 2,400 fixed road access points · N20/50/100/200 nested scales · 48 static duration/distance pairs**. |
-| **[Computer Vision Colorization](https://github.com/Lyz1116-FOUND/Computer_Vision_Colorization)** | Computer Vision course topic: grayscale-to-color generation in Lab space, with U-Net / FCN as course architecture options. | Public repository currently contains the course specification only; no implementation or measured results are published. |
+| **[Gorge Chase DIY Agent](https://github.com/Lyz1116-FOUND/mobat)** | DIY game agent built on Tencent KaiwuDRL: 16 actions, 1,840-dimensional observations, CNN + MLP Actor-Critic, GAE, masked PPO, and potential-based shaping. | Public code and training notes document environment interaction, learner updates, and saved checkpoints; no comparative performance claim. |
 
 ## Agent Replay
 
@@ -44,7 +44,7 @@ The player packs a bag while a greedy shopkeeper only looks at value/weight rati
 
 I have hands-on experience with game-agent development using **PPO / Actor-Critic / GAE / reward shaping / action masking**, including a KaiwuDRL-based real-time game environment. I also received a **National Third Prize in the Tencent Kaiwu Reinforcement Learning Competition**.
 
-I am also an invited tester / real user of **TapTap GameBuddy**, and I am especially interested in AI products that combine visual understanding, domain knowledge, and real-time interaction inside games.
+I am a dedicated player of **Honor of Kings (王者荣耀)** and **王者万象棋**, and an invited tester / real user of **TapTap GameBuddy**, and I am especially interested in AI products that combine visual understanding, domain knowledge, and real-time interaction inside games.
 
 ## Research & engineering
 

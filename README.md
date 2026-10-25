@@ -10,10 +10,10 @@ I like building AI systems that can be **run, tested, observed, and evaluated**,
 
 | Project | What I built | Evidence |
 |---|---|---|
-| **[Agent Replay](https://github.com/Lyz1116-FOUND/agent-replay)** | A recorder, replay UI, evaluator, FastAPI service, and native ReAct coding-agent harness for Codex / Claude Code / OpenCode / Qoder / ZCode-style workflows. Includes tools, grader, retry, context compression, skills, MCP, reviewer, and multi-agent support. | Public beta; live demo; **130 live-model runs** across 13 variants × 10 tasks; context compression kept 10/10 completion while using about **47% of full-context total tokens**. |
+| **[Agent Replay](https://github.com/Lyz1116-FOUND/agent-replay)** | A recorder, replay UI, evaluator, FastAPI service, and native ReAct coding-agent harness for Codex / Claude Code / OpenCode / Qoder / ZCode-style workflows. Includes tools, grader, retry, context compression, skills, MCP, reviewer, and multi-agent support. | Public beta; live demo; **130 live-model runs** across 13 variants × 10 tasks; on one model and 10 Python tasks (one run per variant/task), context compression kept 10/10 verified success while using about **47% of full-context total tokens**; not a general model ranking. |
 | **[Beat Greedy](https://github.com/Lyz1116-FOUND/beat-greedy)** | A playable ToC algorithm game that turns 0/1 knapsack into a player-vs-greedy-boss experience. Built the product flow, interaction, scoring, visual system, audio, and deployment. | React 19 + TypeScript + Vite + Tailwind; **18 automated tests**; deployed online. |
-| **[RealRoute-Bench](https://github.com/Lyz1116-FOUND/RealRoute-Bench)** | A real-city routing benchmark with unified problem definitions, data provenance, independent evaluation, exact/heuristic baselines, and dynamic-traffic acquisition. | **12 city worlds · 2,400 fixed road access points · N20/50/100/200 nested scales · 48 static duration/distance matrices**. |
-| **[Computer Vision Colorization](https://github.com/Lyz1116-FOUND/Computer_Vision_Colorization)** | Course project on grayscale image colorization and conditional generation in Lab color space. | PyTorch / image generation workflow; paired with additional monocular-depth experiments on multi-GPU infrastructure. |
+| **[RealRoute-Bench](https://github.com/Lyz1116-FOUND/RealRoute-Bench)** | Research preview of a real-city routing benchmark: problem definitions, data provenance, an independent checker, and traffic-data acquisition; formal baselines and leaderboard remain incomplete. | **12 city worlds · 2,400 fixed road access points · N20/50/100/200 nested scales · 48 static duration/distance pairs**. |
+| **[Gorge Chase DIY Agent](https://github.com/Lyz1116-FOUND/mobat)** | Built a DIY agent on Tencent KaiwuDRL: 16 actions, 1,840-dimensional observations, CNN + MLP Actor-Critic, GAE, masked PPO, and potential-based shaping. | Repository implementation and training notes document environment interaction, learner updates, and saved checkpoints; no comparative performance claim. |
 
 ## Agent Replay
 
@@ -64,3 +64,9 @@ I am also an invited tester / real user of **TapTap GameBuddy**, and I am especi
 I prefer projects where an AI system has to survive contact with reality: real tools, real state, real failures, real verification, and a user who needs to understand what happened.
 
 For internships, I am particularly interested in **AI product engineering, coding agents, agent infrastructure/evaluation, game AI, and AI-native consumer products**.
+
+## Coursework and repository attribution
+
+[Computer Vision Colorization](https://github.com/Lyz1116-FOUND/Computer_Vision_Colorization) currently publishes the course specification for grayscale-to-color generation in Lab space; implementation and experimental results are not included in that public repository.
+
+Featured work above describes my project contributions. The Gorge Chase agent builds on Tencent's KaiwuDRL framework; I do not claim authorship of that framework. Forks, upstream mirrors, learning resources, and templates elsewhere in this account are not presented as original portfolio projects.
